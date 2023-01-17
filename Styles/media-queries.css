@@ -1,0 +1,38 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+    .navigation-wrapper > .left-column {
+        order:2;
+
+    }
+    .navigation-wrapper > .center-column {
+        order:1;
+       
+    }
+    .links-wrapper {
+        flex-direction: column;
+    }
+
+
+    .navigation-wrapper > .right-column {
+        order:3;
+        
+    }
+
+    .hero-section {
+        padding: 50px 50px;
+    }
+
+    .features-section {
+        height: 100%;
+    
+    }
+
+    .features-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+
+    }
+}

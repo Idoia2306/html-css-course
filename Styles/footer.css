@@ -1,0 +1,84 @@
+/* footer common styles */
+.Footer-section {
+    height: 220px;
+    background-color: #11122b;
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+
+}
+
+.Footer-section > .banner-image img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+
+.Footer-section > .footer-phone-hours {
+    width: 250px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer-section > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.Footer-section > .links-wrapper {
+    padding-top: 30px;
+    width: 400px;
+}
+/* .Footer-section > .footer-links-wrapper a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.Footer-section > .footer-links-wrapper > .Nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.Footer-section > .footer-links-wrapper > .Nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+    transition: 0.5s;
+} */
+.Footer-section > .Social-media {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px; 
+}
+
+.Footer-section > .Social-media a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+}
+
+.Footer-section > .Social-media a:hover {
+    color: #cea135;
+    transition: 0.5s;
+}
+
+.Footer-section > .copyright-wrapper {
+    font-size: 10px;
+    padding-bottom: 5px;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
